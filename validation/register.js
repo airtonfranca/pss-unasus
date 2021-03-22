@@ -13,9 +13,7 @@ module.exports = function validateRegisterInput(data) {
     errors.name = "Digite o Nome";
   } else if (!Validator.isLength(data.name, { min: 5, max: 50 })) {
     errors.name = "Campo precisa ter 5 ou mais caracteres";
-  } else if (!Validator.isAlpha(data.name, ["pt-BR"])) {
-    errors.name = "Somentes letras são permitidas";
-  }
+  } 
   // Verificar email
   if (Validator.isEmpty(data.email)) {
     errors.email = "Digite o E-mail";
