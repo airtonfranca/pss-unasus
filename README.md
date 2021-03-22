@@ -34,6 +34,7 @@ URL Nova Conta: http://localhost:5000/api/users/register
 Instalar dependências para servidor e cliente
 // npm install && cd client && npm install
 
+*Verifique se o Termonal está no diretório principal antes de rodar o próximo comando*
 Executar cliente e servidor simultaneamente
 // npm run dev
 
