@@ -106,7 +106,6 @@ class Register extends Component {
                 <span className="red-text">{errors.password2}</span>
               </div>
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
-                <span className="green-text">{errors.sucess}</span>
                 <button
                   type="submit"
                   className="btn btn-sm waves-effect waves-light hoverable input-btn"

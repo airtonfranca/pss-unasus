@@ -9,6 +9,8 @@ Tecnologias usada:
 
 ## Configuração
 
+Instale o [NODE.js](https://nodejs.org/en/) e o [MongoDB](https://www.mongodb.com/try/download/community) se já não o estiverem instalados.
+
 Se você tem seu próprio `MONGOURI` do seu Banco de Dados [mLab](http://mlab.com), edite o arquivo `config/keys.js`.
 
 ```javascript
@@ -18,7 +20,7 @@ module.exports = {
 };
 ```
 
-Atualmente o arquivo contém meus dados [mLab](http://mlab.com), você pode usar a ferramenta [Postman](https://www.postman.com) para testar a API endpoint e erros:
+Atualmente o arquivo contém meus dados [mLab](http://mlab.com), você pode usar a ferramenta [Postman](https://www.postman.com) para testar a API endpoint:
 
 ```javascript
 Tipo de requisição: POST
@@ -30,7 +32,7 @@ URL Nova Conta: http://localhost:5000/api/users/register
 
 ```javascript
 Instalar dependências para servidor e cliente
-// npm install && npm run client-install
+// npm install && cd client && npm install
 
 Executar cliente e servidor simultaneamente
 // npm run dev

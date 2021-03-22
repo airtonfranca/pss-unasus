@@ -35,16 +35,6 @@ module.exports = function validateRegisterInput(data) {
   if (!Validator.equals(data.password, data.password2)) {
     errors.password2 = "Senhas diferentes";
   }
-  if (
-    !Validator.isEmpty(data.email) &&
-    Validator.isEmail(data.email) &&
-    !Validator.isEmpty(data.password) &&
-    !Validator.isEmpty(data.password2) &&
-    Validator.isLength(data.password, { min: 6, max: 30 }) &&
-    Validator.equals(data.password, data.password2)
-  ) {
-    errors.sucess = "CADASTRO COM SUCESSO";
-  }
   return {
     errors,
     isValid: isEmpty(errors),
