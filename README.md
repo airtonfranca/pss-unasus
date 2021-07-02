@@ -11,7 +11,7 @@ Tecnologias usada:
 
 Instale o [NODE.js](https://nodejs.org/en/) e o [MongoDB](https://www.mongodb.com/try/download/community) se já não o estiverem instalados.
 
-Se você tem seu próprio `MONGOURI` do seu Banco de Dados [mLab](http://mlab.com), edite o arquivo `config/keys.js`.
+Use sua própria `MONGOURI` do seu Banco de Dados [mLab](http://mlab.com), editando o arquivo `config/keys.js`.
 
 ```javascript
 module.exports = {
